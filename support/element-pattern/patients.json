@@ -1,0 +1,297 @@
+{
+    "pageName": "Patients page",
+    "title": "",
+    "urlExtension": "/patients",
+    "patientsMenu" : "navigation-menu-patients",
+    "domElements":
+    {
+        "filter":
+        {
+            "id": "scr-pat-01-filter-button"
+        },
+
+        "filter option list":
+        {
+            "id": "scr-pat-01-filter-menu"
+        },
+
+        "newPatient":
+        {
+            "id": "scr-pat-01-new-patient"
+        },
+
+        "search":
+        {
+            "id": "#scr-pat-01-search"
+        },
+
+        "patientGrid":
+        {
+            "name": "scr-pat-01-grid-row-selected"
+        },
+
+        "Patient Grid Expand Medicare No Hardess":
+		{
+			"xpath" : "//*[@id='scr-pat-01-grid']//div[contains(@class,'patient-info row')]//span[contains(text(),'Medicare No. 4475485941-1')]"
+        },
+        
+        "Patient Grid First Patient Expand button":
+		{
+			"xpath" : "//*[@id='scr-pat-01-grid']/descendant::tr[contains(@class,'master-row')][1]/descendant::a[@class='k-icon k-i-expand']"
+		},
+
+        "Patient Grid Expand Patient Detail Row":
+        {
+            "xpath": "//*[contains(@class,'k-detail-row')]"
+        },
+
+        "patientInfoTab":
+        {
+            "xpath": "//li[@role='tab']/descendant::a[text()='Patient Info']"
+        },
+
+        "Patient Info":
+        {
+            "xpath": "//*[contains(@class,'patient-info')]"
+        },
+
+        "Patient Grid Expand Family Tab":
+        {
+            "xpath": "//li[@role='tab']/descendant::span[text()='Family']"
+        },
+
+        "Patient Grid Expand Family Information":
+        {
+            "xpath": "//*[contains(@class,'familyList')]"
+        },
+
+        "Patient Grid Expand Family Information Name":
+        {
+            "xpath": "//*[contains(@class,'familyList')]/descendant::*[@role='gridcell'][1]"
+        },
+
+        "name":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Name']"
+        },
+
+        "gender":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Gender']"
+        },
+
+        "DOB":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'DOB']"
+        },
+
+        "home":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Home']"
+        },
+
+        "work":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Work']"
+        },
+
+        "mobile":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Mobile']"
+        },
+
+        "medicare":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Medicare']"
+        },
+
+        "medicareExpiry":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Medicare Expiry']"
+        },
+
+        "chartId":
+        {
+            "xpath": "//*[@class='k-grid-header']/descendant::*[@role='columnheader']/a[text() = 'Chart ID']"
+        },
+
+        "firstRow":
+        {
+            "xpath": "//*[contains(@class,'k-master-row')][1]"
+        },
+
+        "Patient Page Grid First Patient Name":
+        {
+            "xpath": "//*[contains(@class,'k-master-row')]/descendant::*[@data-bind= 'click:editPatient'][1]"
+        },
+
+        "tooracClinicFilter":
+        {
+            "linkText": "The Toorak Clinic"
+        },
+
+        "Maylands Medical Centre Filter":
+        {
+            "linkText": "Maylands Medical Centre"
+        },
+
+        "Patient Grid OPV button":
+        {
+            "id": "scr-pat-01-opv-patient"
+        },
+
+        "editPatientButton":
+        {
+            "id": "#scr-pat-01-edit-patient"
+        },
+
+        "yes button dialog":
+        {
+            "id": "global-confirmation-window-yes-button"
+        },
+
+        "ok button dialog":
+        {
+            "id": "global-information-window-ok-button"
+        },
+
+        "Edit Status Patient":
+        {
+            "xpath": "//*[@id='scr-pat-01-update-status']/preceding-sibling::button"
+        },
+
+        "Patient More button":
+        {
+            "id": "scr-pat-01-more"
+        },
+
+        "Patient More options list":
+        {
+            "xpath": "//*[@id='scr-pat-01-more']/following-sibling::ul[1]"
+        },
+
+        "Activate Button":
+        {
+            "linkText": "Activate"
+        },
+
+        "Deactive Button":
+        {
+            "linkText": "Deactivate"
+        },
+
+        "Patient Total row grid":
+        {
+            "xpath": "//*[@id='scr-pat-01-grid']/descendant::*[@data-role='pager']/descendant::span[contains(@class,'k-pager-info')]"
+        },
+
+        "OPV error": {
+            "xpath": "//*[@class='opvError']"
+        },
+
+        "SMS on Demand Recipient Type":
+        {
+            "xpath": "//*[@id='scr-uti-smsod-01-recipient']/descendant::*[@role='listbox']"
+        },
+
+        "SMS on Demand Recipient Name":
+        {
+            "xpath": "//*[@id='scr-uti-smsod-01-recipient']/descendant::*[@data-role='autocomplete']"
+        },
+
+        "SMS on Demand Recipient Autocomplete":
+        {
+            "xpath":  "//ul[@aria-hidden='false']"
+        },
+
+        "SMS on Demand Template Dropdown":
+        {
+            "id":  "scr-uti-smsod-01-template"
+        },
+
+        "SMS on Demand Send Button":
+        {
+            "id":  "scr-uti-smsod-01-send"
+        },
+
+		"Select all checkbox":
+        {
+            "xpath": "//*[@type='checkbox' and @data-bind='checked: selectedAllValue, click: selectAll']/ancestor::label"
+        },
+
+        "Bulk Patient Invite":
+        {
+            "id": "scr-patient-bulk-mobile-invite"
+        },
+
+        "Mordecai Bulk Invite Success":
+        {
+            "xpath": "//*['@id=scr-pat-01-grid']/td/div[@data-patientname='Sishio, Mordecai' and @data-mobileinvite='success']"
+        },
+
+        "Edward Bulk Invite Fail":
+        {
+            "xpath": "//*[@data-patientname='Kumamura, Edward' and @data-tooltip-description='Please enter a valid patient email address before inviting this patient to join MediRecords']"
+    	},
+		
+		"Patient Page Saved View dropdown":
+        {
+            "xpath": "//*[@aria-owns='scr-pat-layout-01-saved-view_listbox']"
+        },
+		
+		"Patient Page Saved View list":
+        {
+            "id": "scr-pat-layout-01-saved-view_listbox"
+        },
+		
+		"Standard Patient View option":
+		{
+			"xpath": "//*[@class='k-list-optionlabel k-state-selected k-state-focused' and text()='Standard Patient View']"
+		},
+		
+		"Patient Page Views button":
+        {
+            "id": "scr-pat-01-create-view-button"
+        },
+		
+		"Patient Page Message OK button":
+        {
+            "id": "global-error-window-ok-button"
+        },
+		
+		"Patient Grid No items to display":
+        {
+            "xpath": "//span[text() = 'No items to display']"
+        },
+
+        "Patient Grid Total item":
+        {
+            "xpath": "//*[@id='scr-pat-01-grid']//span[@class='k-pager-info k-label']"
+        },
+
+        "Status button":
+        {
+            "xpath": "//*[@id='scr-pat-01-update-status']/preceding-sibling::button[@data-toggle]"
+        },
+
+        "Status list":
+        {
+            "id": "scr-pat-01-update-status"
+        },
+
+        "Patient Filter button":
+        {
+            "id": "scr-pat-01-filter-button"
+        },
+
+        "Standard Patient View":
+		{
+			"xpath": "//*[@class='k-list-optionlabel' and text()='Standard Patient View']"
+		},
+
+        "Patient Filter option list":
+        {
+            "id": "scr-pat-01-filter-menu"
+        }
+	}
+}

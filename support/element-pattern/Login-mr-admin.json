@@ -1,0 +1,32 @@
+{
+  "pageName":"LoginMRAdmin",
+  "title":"MediRecords - Login",
+  "urlExtension": "/admin",
+  "keyDomElementName": "adminEmail",
+  "domElements" :
+  {
+    "Login Main view": {
+      "id": "scr-reg-99-login-admin-view"
+    },
+    "adminUser":
+    {
+      "id":"scr-reg-99-user-name"
+    },
+    "adminEmail":
+    {
+      "id":"scr-reg-99-email"
+    },
+    "adminPassword":
+    {
+      "id":"scr-reg-99-password"
+    },
+    "userEmail":
+    {
+      "id":"scr-reg-99-user-email"
+    },
+    "login button":
+    {
+      "id":"scr-reg-99-submit-login"
+    }
+  }
+}

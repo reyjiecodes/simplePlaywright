@@ -1,0 +1,37 @@
+{
+  "airclaim":{
+    "airclaim_practice_name_1" : "AirClaimPractice",
+    "airclaim_practice_name_2" : "AirClaimPracticeNonQLD",
+    "airclaim_practice_name_3" : "AirClaimPracticePending",
+    "airclaim_password_value" : "test1234",
+    
+    "airclaim_username_value_1" : "Matilda.Lockie",
+    "airclaim_email_value_1" : "matilda.lockie@medirecords.com",
+    "airclaim_complete_name_1" : "Mrs Matilda Lockie",
+    "airclaim_search_name_1" : "Lockie",
+    "airclaim_complete_name_with_code_space_1" : "Mrs Matilda Lockie (ML )",
+    "airclaim_complete_name_with_code_1" : "Mrs Matilda Lockie (ML)",
+    
+    "airclaim_username_value_2" : "Brock.Charles",
+    "airclaim_email_value_2" : "brock.charles@medirecords.com",
+    "airclaim_complete_name_2" : "Mr Brock Charles",
+    "airclaim_search_name_2" : "Brock",
+    "airclaim_complete_name_with_code_2" : "Mr Brock Charles (BC)",
+    
+    "airclaim_username_value_3" : "Jack.Dalley",
+    "airclaim_email_value_3" : "jack.dalley@medirecords.com",
+    "airclaim_complete_name_3" : "Dr Jack Dalley",
+    "airclaim_search_name_3" : "Dalley",
+    "airclaim_complete_name_with_code_3" : "Dr Jack Dalley (JD)",
+
+    "airclaim_username_value_4" : "John.Testla",
+    "airclaim_email_value_4" : "john.tesla@test.medirecords.com",
+    "airclaim_complete_name_4" : "Dr John Testla",
+    "airclaim_search_name_4" : "Testla",
+    "airclaim_complete_name_with_code_4" : "Dr John Testla (JT)"
+  }
+
+
+
+
+}

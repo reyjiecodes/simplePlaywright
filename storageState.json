@@ -1,0 +1,114 @@
+{
+  "cookies": [
+    {
+      "name": "mrapp",
+      "value": "{%22auth-john-testla%22:{%22token%22:%22Q7bHuMV8PHtMCh31N_fCMPmFuj8%22%2C%22refresh%22:%22iA2jKKe796zEGWH21KR1k8B0gQk%22}}",
+      "domain": "app.test.medirecords.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.4.350199409.1671513287",
+      "domain": ".app.test.medirecords.com",
+      "path": "/",
+      "expires": 1706073287.079927,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.4.1213705802.1671513287",
+      "domain": ".app.test.medirecords.com",
+      "path": "/",
+      "expires": 1671599687,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-67006652-16",
+      "value": "1",
+      "domain": ".app.test.medirecords.com",
+      "path": "/",
+      "expires": 1671513347,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_9702a525f676ffe6974482f196944f57_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22fa25982e-7700-11eb-8244-a38ddbadb5d5%22%2C%22%24device_id%22%3A%20%221852df46f717b7-0cfc9c2232036d-357a0c7d-e1000-1852df46f72126b%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22fa25982e-7700-11eb-8244-a38ddbadb5d5%22%2C%22firstName%22%3A%20%22John%22%2C%22lastName%22%3A%20%22Testla%22%2C%22name%22%3A%20%22John.Testla%22%2C%22email%22%3A%20%22john.tesla%40test.medirecords.com%22%2C%22age%22%3A%200%2C%22module%22%3A%20%22INTEGRATED_SPECIALIS%22%2C%22gender%22%3A%20%22Male%22%2C%22communityEnabled%22%3A%20%22Yes%22%2C%22prescriber%22%3A%20%22Yes%22%2C%22provider%22%3A%20%22Yes%22%2C%22userCategory%22%3A%20%2286%22%2C%22securityRole%22%3A%20%22a80e92d7-5cd4-4873-a35d-9b36246a3fbd%22%2C%22phone%22%3A%20%22%22%2C%22title%22%3A%20%22Mr%22%7D",
+      "domain": ".medirecords.com",
+      "path": "/",
+      "expires": 1703049287,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_upscope__region",
+      "value": "ImFwLXNvdXRoZWFzdCI=",
+      "domain": ".medirecords.com",
+      "path": "/",
+      "expires": 1674191688,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_upscope__shortId",
+      "value": "IkxSQU1KUkZNRFo1M0NFQlBOIg==",
+      "domain": ".medirecords.com",
+      "path": "/",
+      "expires": 1674191688,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.test.medirecords.com",
+      "localStorage": [
+        {
+          "name": "login",
+          "value": "true"
+        },
+        {
+          "name": "mrapp",
+          "value": "{\"featureToggleVisible\":{\"visible-login-adfs\":false,\"visible-live-chat\":true},\"userLogin\":{\"userGuid\":\"fa25982e-7700-11eb-8244-a38ddbadb5d5\",\"titleCode\":\"315890000\",\"firstName\":\"John\",\"lastName\":\"Testla\",\"completeName\":\"John Testla\",\"userName\":\"John.Testla\",\"userCode\":\"JT\",\"email\":\"john.tesla@test.medirecords.com\",\"mobilePhone\":null,\"homePhone\":null,\"officePhone\":\"1234567890\",\"fax\":null,\"shareID\":1,\"canonicalId\":\"Australia/Brisbane\",\"categoryCode\":\"86\",\"moduleCode\":\"INTEGRATED_SPECIALIS\",\"plan\":1,\"userProvider\":{\"prescriberNo\":\"2515823\",\"abn\":null,\"erxid\":\"74FD9\",\"pcehrid\":\"8003613337666770\"},\"userBiography\":{\"preferredName\":\"John\",\"gender\":2,\"dob\":null},\"userGroups\":[],\"supportEnabled\":true,\"titleName\":\"Mr\",\"fullName\":\"Mr John Testla\",\"roleGuid\":\"a80e92d7-5cd4-4873-a35d-9b36246a3fbd\",\"primaryUserGuid\":\"fa25982e-7700-11eb-8244-a38ddbadb5d5\",\"practice\":[{\"practiceGuid\":\"fa254b94-7700-11eb-8243-939edb823942\",\"practiceName\":\"Brown Clinic\",\"addressLine1\":\"Street 9826\",\"addressLine2\":\"\",\"postCode\":\"2001\",\"city\":\"Sydney\",\"stateCode\":\"NSW\",\"countryCode\":\"AU\",\"serviceProviderGuid\":\"cb03c58f-5d40-e311-93f5-005056813643\",\"officePhone\":\"1234567890\",\"fax\":null,\"defaultPractice\":true,\"providerNo\":\"100589DK\"}],\"tenantGuid\":\"6dd49e96-7701-11eb-a2d3-7769c3893135\",\"userLogin\":\"eyJ1c2VybmFtZSI6IkpvaG4uVGVzdGxhIiwiZW1haWwiOiJqb2huLnRlc2xhQHRlc3QubWVkaXJlY29yZHMuY29tIn0=\"},\"generalConfig\":{\"LandingPage\":\"home\",\"ProviderFilters\":\"fa25982e-7700-11eb-8244-a38ddbadb5d5\",\"PatientLandingPage\":\"details\",\"ClinicalLandingPage\":\"TodaysNote\",\"StartConsultationTimer\":\"true\",\"SOAPTodaysNote\":\"true\",\"ChatNotification\":\"true\",\"MedicalCertificate\":\"ef4d2156-e442-11e6-b7eb-7f6a24139e96\",\"SpecialistLetter\":\"448825cd-17ec-e511-8110-0699dab61555\",\"ConsultationType\":\"3\",\"GridCount\":\"50\"},\"userState\":{\"selectedPracticeGUID\":\"fa254b94-7700-11eb-8243-939edb823942\"},\"timestamp\":1671513287930,\"featureToggle\":[{\"typeCode\":\"E\",\"configs\":{\"visible\":{\"visible-tagging\":true,\"visible-custom-field\":true,\"visible-inpatient\":true,\"visible-patient-consent\":true,\"visible-consult-attachment\":true,\"visible-worklist\":true,\"visible-activities-group\":true,\"visible-consult-filter\":true,\"visible-letter-template\":true,\"visible-immunisation-update\":true,\"visible-approval-workflow\":true,\"visible-dispense-workflow\":true,\"visible-case-management\":true,\"visible-subscription-billing\":true,\"visible-new-login-screen\":true,\"visible-integration-intelligence\":true,\"visible-live-chat\":true,\"visible-immunisation-activity-link\":true,\"visible-investigation-update\":true,\"visible-prescription-workflow\":true,\"visible-group-appointment\":true,\"visible-medication-orders\":true,\"visible-new-clinical-template\":true,\"visible-letter-referral\":true,\"visible-prescription-type\":true,\"visible-formulary-module\":true,\"visible-investigation-request-global-view\":true},\"mode\":{\"patientHeader\":\"normal\",\"useLeidosFileProxy\":\"true\"}}}]}"
+        },
+        {
+          "name": "tabs",
+          "value": "1"
+        },
+        {
+          "name": "hasValidClaimCert",
+          "value": "true"
+        },
+        {
+          "name": "__upscope:region",
+          "value": "\"ap-southeast\""
+        },
+        {
+          "name": "__upscope:shortId",
+          "value": "\"LRAMJRFMDZ53CEBPN\""
+        }
+      ]
+    },
+    {
+      "origin": "https://d7lcq125fl86.statuspage.io",
+      "localStorage": [
+        {
+          "name": "d7lcq125fl86.statuspage.io_dismissed",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

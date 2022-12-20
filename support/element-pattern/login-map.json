@@ -1,0 +1,128 @@
+{
+  "pageName":"LoginPage",
+  "title":"MediRecords - Login",
+  "urlExtension": "/login",
+  "keyDomElementName": "username",
+  "domElements" :
+  {
+    "login-saml": {
+      "id": "scr-reg-00-login-page-view-saml"
+    },
+    "email-saml":
+    {
+      "id":"scr-reg-00-email-saml"
+    },
+    "continueButton-saml":
+    {
+      "id":"scr-reg-00-continue-login-saml"
+    },
+    "Login Main view": {
+      "id": "scr-reg-00-login-page-view"
+    },
+    "username":
+    {
+      "id":"scr-reg-00-user-name"
+    },
+    "email":
+    {
+      "id":"scr-reg-00-email"
+    },
+    "password":
+    {
+      "id":"scr-reg-00-password"
+    },
+    "loginButton":
+    {
+      "id":"scr-reg-00-submit-login"
+    },
+    "Reenter Email link":
+    {
+      "id":"scr-reg-00-reenter-email"
+    },
+    "usernameAlert":
+    {
+      "cssSelector":".k-invalid-msg[data-for='User Name']"
+    },
+    "emailAlert":
+    {
+      "cssSelector":".k-invalid-msg[data-for='Email']"
+    },
+    "passwordAlert":
+    {
+      "cssSelector":".k-invalid-msg[data-for='Password']"
+    },
+    "registerButton":
+    {
+      "id" : "scr-reg-00-Register"
+    },
+    "Login Acknolegdement Agree button":
+    {
+      "id"  : "acknowledgement-agree"
+    },
+	
+	  "Login Page Remember Me checkbox":
+    {
+      "xpath": "//*[@class='medirecords-checkbox pull-left']"
+    },
+
+    "Login Page Password Help":
+    {
+      "id": "scr-reg-00-password-help"
+    },
+
+    "Login Page Reset My Password button":
+    {
+      "id": "scr-reg-00-reset-password"
+    },
+
+    "Login Page Reset My Password Close button":
+    {
+      "xpath": "//*[@id='scr-reg-00-bubble-question']//span[@class='k-icon k-i-close']"
+    },
+
+    "Login Page Invalid Email Password validation":
+    {
+      "xpath": "//*[@id='global-error-message'][text()='Invalid Username, Email or Password']"
+    },
+
+    "Login Page Error Ok button":
+    {
+      "id": "global-error-window-ok-button"
+    },
+
+    "Login Page Locked Wrong Password validation":
+    {
+      "xpath": "//*[@id='login-locked-message']//span[text()='You have tried to login too many times. Please reset your password.']"
+    },    
+
+    "Login Page Locked Wrong Password Ok button":
+    {
+      "xpath": "//*[@id='login-locked-message']//span[text()='You have tried to login too many times. Please reset your password.']"
+    },  
+
+    "Login Page Locked Wrong Password Reset Password button":
+    {
+      "xpath": "//*[@id='login-locked-message']//span[text()='You have tried to login too many times. Please reset your password.']"
+    },
+
+    "Footer FAQ link":
+    {
+      "xpath": "//*[@id='Footer']//a[text()='FAQs']"
+    },
+
+    "Footer Privacy Policy link":
+    {
+      "xpath": "//*[@id='Footer']//a[text()='Privacy Policy']"
+    },
+
+    "Footer Contact Us link":
+    {
+      "xpath": "//*[@id='Footer']//a[text()='Contact Us']"
+    },
+
+    "Footer Sign Up link":
+    {
+      "xpath": "//*[@id='Footer']//a[text()='Sign Up']"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pageName":"LoginPageSAML",
+  "title":"MediRecords - Login",
+  "urlExtension": "/login",
+  "keyDomElementName": "email",
+  "domElements" :
+  {
+    "Login Main view": {
+      "id": "scr-reg-00-login-page-view-saml"
+    },
+    "email":
+    {
+      "id":"scr-reg-00-email-saml"
+    },
+    "continueButton":
+    {
+      "id":"scr-reg-00-continue-login-saml"
+    }
+  }
+}

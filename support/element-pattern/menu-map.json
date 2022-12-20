@@ -1,0 +1,237 @@
+{
+	"pageName": "Menu",
+	"title": "",
+	"urlExtension": "/",
+	"domElements": {
+		"navigationBar": {
+			"id": "user-navigation"
+		},
+
+		"home menu": {
+			"id": "navigation-menu-home"
+		},
+
+		"more menu": {
+			"id": "navigation-menu-more"
+		},
+
+		"setting menu": {
+			"id": "navigation-menu-settings-more"
+		},
+
+		"patients menu": {
+			"id": "#navigation-menu-patients"
+		},
+
+		"appointment menu": {
+			"id": "navigation-menu-appointments"
+		},
+
+		"waiting room menu": {
+			"id": "navigation-menu-waiting-room"
+		},
+
+		"audit menu": {
+			"id": "navigation-menu-audit-more"
+		},
+
+		"account menu": {
+			"id": "navigation-menu-accounts"
+		},
+
+		"logout": {
+			"id": "navigation-menu-accounts-logout"
+		},
+
+		"activity menu": {
+			"id": "navigation-menu-tasks"
+		},
+
+		"billing menu": {
+			"id": "navigation-menu-billing"
+		},
+
+		"acir menu": {
+			"id": "navigation-menu-acir"
+		},
+
+		"Account Claiming menu": {
+			"id": "navigation-menu-claiming"
+		},
+
+		"Account Sales menu": {
+			"id": "navigation-menu-sales"
+		},
+
+		"Account Expenses menu": {
+			"id": "navigation-menu-expenses"
+		},
+
+		"Account Reconciliation menu": {
+			"id": "navigation-menu-reconciliation"
+		},
+
+		"Account Distributions menu": {
+			"id": "navigation-menu-distributions"
+		},
+
+		"Account Journal menu": {
+			"id": "navigation-menu-journal"
+		},
+
+		"investigation menu": {
+			"id": "navigation-menu-investigations"
+		},
+
+		"resources menu": {
+			"id": "navigation-menu-resources-more"
+		},
+
+		"utilities menu": {
+			"id": "navigation-menu-utilities-more"
+		},
+
+		"task menu": {
+			"id": "navigation-menu-tasks"
+		},
+
+		"profile menu": {
+			"id": "navigation-menu-accounts-profile"
+		},
+
+		"preferences menu": {
+			"id": "navigation-menu-accounts-preferences"
+		},
+
+		"reporting menu": {
+			"id": "navigation-menu-reporting-more"
+		},
+
+		"Recent Patient": {
+			"id": "scr-pat-layout-01-header-bar-container"
+		},
+
+		"message menu": {
+			"id": "navigation-menu-messages"
+		},
+
+		"Account menu options list": {
+			"xpath": "//*[@id='navigation-menu-accounts']/following-sibling::ul"
+		},
+
+		"Patient Smith Jane button": {
+			"xpath": "//*[@class='mr-header-bar-button']/descendant::label[text()='Smith, Jane']"
+		},
+
+		"Patient Smith John button": {
+			"xpath": "//*[@class='mr-header-bar-button']/descendant::label[text()='Smith, John']"
+		},
+
+		"Navigation chat counter-1":{
+				"xpath":"//*[@id='navigation-menu-home-chat-counter']"
+		},
+
+		"Practice non-QLD": {
+			"id": "navigation-menu-accounts-practice-1"
+		},
+
+		"Practice QLD": {
+			"id": "navigation-menu-accounts-practice-3"
+		},
+
+		"Account menu options": {
+			"id": "navigation-menu-accounts"
+		},
+		
+		"Practice QLD-Pending": {
+			"id": "navigation-menu-accounts-practice-4"
+		},
+		
+		"Practice PCS": {
+			"id": "navigation-menu-accounts-practice-2"
+		},
+        
+        "New Patient Shortcut":
+        {
+            "xpath": "//*[contains(@data-bind,'click:newPatient')]"
+		},
+		
+		"New Task Shortcut":
+        {
+            "xpath": "//*[contains(@data-bind,'click:newTask')]"
+		},
+
+		"New Clinical Action Shortcut":
+        {
+            "xpath": "//*[contains(@data-bind,'click:newActivity')]"
+		},
+
+		"New Appointment Shortcut":
+        {
+            "xpath": "//*[contains(@data-bind,'click:newAppointment')]"
+		},
+
+		"Find Patient Shortcut field":
+		{
+			"id": "scr-pat-layout-01-header-bar-patient"
+		},
+
+		"Find Patient Shortcut autocomplete":
+		{
+			"id": "scr-pat-layout-01-header-bar-patient_listbox"
+		},
+		        
+        "Practice Subscription 1": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-0'][contains(text(),'SubscriptionPractice1')]"
+		},
+        
+        "Practice Subscription 1 unchecked": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-0'][contains(text(),'SubscriptionPractice1')][contains(@data-bind,'click: changePractice')]"
+		},
+        
+        "Practice Subscription 2": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-1'][contains(text(),'SubscriptionPractice2')]"
+		},
+        
+        "Practice Subscription 2 unchecked": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-1'][contains(text(),'SubscriptionPractice2')][contains(@data-bind,'click: changePractice')]"
+		},
+
+		"Practice PatientQuotePractice": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-1'][contains(text(),'PatientQuotePractice')]"
+		},
+
+		"Practice AirClaimPractice": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-0'][contains(text(),'AirClaimPractice')]"
+		},
+
+		"Practice AirClaimPracticeNonQLD": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-1'][contains(text(),'AirClaimPracticeNonQLD')]"
+		},
+
+		"Practice Extended": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-0'][contains(text(),'ExtendedPractice')]"
+		},
+		
+		"Practice ExpensePractice": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-1'][contains(text(),'ExpensePractice')]"
+		},
+
+		"account status field": {
+			"id": "navigation-menu-accounts-status"
+		},
+
+		"account status clear button": {
+			"id": "navigation-menu-accounts-status-clear"
+		},
+
+		"account status post button": {
+			"id": "navigation-menu-accounts-status-post"
+		},
+
+		"Air Claim Practice": {
+			"xpath": "//a[@id='navigation-menu-accounts-practice-0'][contains(text(),'AirClaimPractice')]"
+		}
+        
+	}
+}

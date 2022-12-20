@@ -1,0 +1,1639 @@
+{
+    "pageName": "Patient Details page",
+    "title": "",
+    "urlExtension": "/patients/",
+    "domElements":
+    {
+
+        "Patient Details Main view":
+        {
+            "id": "scr-pat-details-00-layout-view"
+        },
+        "patientStatus":
+        {
+            "id": "#scr-pat-layout-01-patient-status"
+        },
+
+        "patient provider autocomplete":
+        {
+            "id": "scr-pat-layout-01-usual-provider_listbox"
+        },
+
+        "patient provider field":
+        {
+            "xpath": "//select[@id='scr-pat-layout-01-usual-provider']//parent::div[contains(@class, 'mr-multiselect-wrapper')]//descendant::div[contains(@role,'listbox')]"
+        },
+
+        "patient provider":
+        {
+            "xpath": "//select[@id='scr-pat-layout-01-usual-provider']//parent::div[contains(@class, 'mr-multiselect-wrapper')]//descendant::*[contains(@class,'k-input')]"
+        },
+
+        "patient practice":
+        {
+            "id": "scr-pat-layout-01-usual-practice"
+        },
+		
+		"patient detail information tooltip icon":
+        {
+            "id": "scr-pat-layout-01-related-patients-tooltip"
+        },
+
+        "patient drinking indicator tooltip icon":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-drinking-indicator']"
+        },
+
+        "patient drinking red indicator tooltip icon":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-drinking-indicator' and contains(concat(' ',normalize-space(@class),' '),' mr-patient-header-red')]"
+        },
+
+        "patient drinking green indicator tooltip icon":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-drinking-indicator' and contains(concat(' ',normalize-space(@class),' '),' mr-patient-header-green')]"
+        },
+
+        "patient drinking tooltip":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-drinking-indicator-content']"
+        },
+
+        "patient drinking tooltip Alcohol Status text":
+        {
+            "xpath": "//div[@id='scr-pat-layout-01-drinking-indicator-content']//*[contains(@data-bind,'patientModel.alcohol.result')]"
+        },
+
+        "patient drinking tooltip Alcohol Status notes":
+        {
+            "xpath": "//div[@id='scr-pat-layout-01-drinking-indicator-content']//*[contains(@data-bind,'patientModel.alcohol.notes')]"
+        },
+		
+		"patient detail information tooltip pop up":
+        {
+            "xpath": "//*[@aria-hidden='true']/descendant::*[@id='scr-pat-layout-01-patient-information-content']"
+        },
+		
+		"patient detail information tooltip notes":
+        {
+            "xpath": "//*[contains(@data-bind,'patientNote') and text()='Test']"
+        },
+
+        "patient detail tab":
+        {
+            "id": "scr-pat-layout-01-patient-details-tab"
+        },
+
+        "patient detail demographic section":
+        {
+            "id": "scr-pat-details-00-navigation-demographic"
+        },
+
+        "Patient Detail Full Name information":
+        {
+            "xpath": "//*[@data-bind='text: patientInfo.patientName']"
+        },
+
+        "patient detail title":
+        {
+            "id": "scr-pat-details-01-title"
+        },
+
+        "patient detail first name":
+        {
+            "id": "scr-pat-details-01-first-name"
+        },
+
+        "patient detail middle name":
+        {
+            "id": "scr-pat-details-01-middle-name"
+        },
+
+        "patient detail last name":
+        {
+            "id": "scr-pat-details-01-last-name"
+        },
+
+        "patient detail prefered name":
+        {
+            "id": "scr-pat-details-01-preferred-name"
+        },
+
+        "patient detail know as":
+        {
+            "id": "scr-pat-details-01-known-as"
+        },
+
+        "patient detail DOB":
+        {
+            "id": "scr-pat-details-01-dob"
+        },
+
+        "patient detail estimated":
+        {
+            "id": "scr-pat-details-01-estimated"
+        },
+
+        "patient detail gender":
+        {
+            "id": "scr-pat-details-01-gender"
+        },
+		
+		"patient detail gender value":
+		{
+            "xpath": "//*[@id='scr-pat-details-01-gender']/ancestor::span[contains(@class, 'k-widget')]/descendant::span[@class='k-input']"
+        },
+
+        "patient detail ethnicity":
+        {
+            "id": "scr-pat-details-01-ethnicity-select"
+        },
+
+        "patient detail second language":
+        {
+            "id": "scr-pat-details-01-second-language"
+        },
+
+        "patient detail notes":
+        {
+            "id": "scr-pat-details-01-notes"
+        },
+
+        "patient detail dod":
+        {
+            "id": "scr-pat-details-01-dod"
+        },
+
+        "patient detail cause of death":
+        {
+            "id": "scr-pat-details-01-cause-of-death"
+        },
+
+        "patient detail atsi":
+        {
+            "id": "scr-pat-details-01-atsi"
+        },
+
+        "patient detail primary tab":
+        {
+            "id": "scr-pat-details-01-primary-tab"
+        },
+
+        "patient detail primary address 1":
+        {
+            "id": "scr-pat-details-01-primary-address-1"
+        },
+
+        "patient detail primary address 2":
+        {
+            "id": "scr-pat-details-01-primary-address-2"
+        },
+
+        "patient detail primary post code":
+        {
+            "id": "scr-pat-details-01-primary-post-code"
+        },
+
+        "patient detail primary city":
+        {
+            "id": "scr-pat-details-01-primary-city"
+        },
+
+        "patient detail primary state":
+        {
+            "id": "scr-pat-details-01-primary-state"
+        },
+
+        "patient detail primary country":
+        {
+            "id": "scr-pat-details-01-primary-country"
+        },
+
+        "patient detail primary update all address":
+        {
+            "id": "scr-pat-details-01-primary-update-all-address"
+        },
+		
+		"patient detail update all address checkbox":
+        {
+            "id": "scr-pat-details-01-primary-update-all-address"
+        },
+
+        "patient detail primary home phone":
+        {
+            "id": "scr-pat-details-01-primary-home-phone"
+        },
+
+        "patient detail primary mobile phone":
+        {
+            "id": "scr-pat-details-01-primary-mobile-phone"
+        },
+
+        "patient detail primary work phone":
+        {
+            "id": "scr-pat-details-01-primary-work-phone"
+        },
+
+        "patient detail primary contact method":
+        {
+            "id": "scr-pat-details-01-primary-contact-method"
+        },
+
+        "patient detail primary email":
+        {
+            "id": "scr-pat-details-01-primary-email"
+        },
+
+        "patient detail secondary tab":
+        {
+            "id": "scr-pat-details-01-secondary-tab"
+        },
+
+        "patient detail secondary address 1":
+        {
+            "id": "scr-pat-details-01-secondary-address-1"
+        },
+
+        "patient detail secondary address 2":
+        {
+            "id": "scr-pat-details-01-secondary-address-2"
+        },
+
+        "patient detail secondary post code":
+        {
+            "id": "scr-pat-details-01-secondary-post-code"
+        },
+
+        "patient detail secondary city":
+        {
+            "id": "scr-pat-details-01-secondary-city"
+        },
+
+        "patient detail secondary state":
+        {
+            "id": "scr-pat-details-01-secondary-state"
+        },
+
+        "patient detail secondary country":
+        {
+            "id": "scr-pat-details-01-secondary-country"
+        },
+
+        "patient detail emergency tab":
+        {
+            "id": "scr-pat-details-01-emergency-tab"
+        },
+
+        "patient detail emergency name":
+        {
+            "id": "scr-pat-details-01-emergency-name"
+        },
+
+        "patient detail emergency relationship":
+        {
+            "id": "scr-pat-details-01-emergency-relationship"
+        },
+
+        "patient detail emergency home phone":
+        {
+            "id": "scr-pat-details-01-emergency-home-phone"
+        },
+
+        "patient detail emergency mobile phone":
+        {
+            "id": "scr-pat-details-01-emergency-mobile-phone"
+        },
+
+        "patient detail emergency work phone":
+        {
+            "id": "scr-pat-details-01-emergency-work-phone"
+        },
+
+        "patient detail emergency contact method":
+        {
+            "id": "scr-pat-details-01-emergency-contact-method"
+        },
+
+        "patient detail emergency email":
+        {
+            "id": "scr-pat-details-01-emergency-email"
+        },
+
+        "patient detail emergency next of kin name":
+        {
+            "id": "scr-pat-details-01-nok-name"
+        },
+
+        "patient detail emergency next of kin relationship":
+        {
+            "id": "scr-pat-details-01-nok-relationship"
+        },
+
+        "patient detail emergency next of kin home phone":
+        {
+            "id": "scr-pat-details-01-nok-home-phone"
+        },
+
+        "patient detail emergency next of kin work phone":
+        {
+            "id": "scr-pat-details-01-nok-work-phone"
+        },
+
+        "patient detail emergency next of kin contact method":
+        {
+            "id": "scr-pat-details-01-nok-contact-method"
+        },
+
+        "patient detail emergency next of kin email":
+        {
+            "id": "scr-pat-details-01-nok-email"
+        },
+
+        "Patient detail referer tab":
+        {
+            "id": "scr-pat-details-01-referrer-tab"
+        },
+
+        "Patient detail referrer add":
+        {
+            "id": "scr-pat-details-01-referrer-grid-add"
+        },
+
+        "Patient detail referrer edit":
+        {
+            "id": "scr-pat-details-01-referrer-grid-edit"
+        },
+
+        "Patient detail referrer delete":
+        {
+            "id": "scr-pat-details-01-referrer-grid-delete"
+        },
+
+        "Patient detail referrer grid":
+        {
+            "id": "scr-pat-details-01-referrer-grid"
+        },
+
+	"Patient detail referrer grid first row":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-referrer-grid']/descendant::*[@role='gridcell'][1]"
+        },
+		
+	"Patient detail referrer grid first checkbox":
+        {
+            "xpath": "//*[@data-bind='checked: selectedReferrer, click: selectReferrer'][1]"
+        },
+		
+	"Patient detail referrer grid first unlock icon":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-referrer-grid']/descendant::*[@*='#icn-warning'][1]"
+        },
+		
+	"Patient detail referrer grid second row":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-referrer-grid']/descendant::*[@role='gridcell'][2]"
+        },
+		
+	"Patient detail referrer grid second unlock icon":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-referrer-grid']/descendant::*[@*='#icn-warning'][2]"
+        },
+	"Patient detail interested party section":
+        {
+            "id": "scr-pat-details-01-interested-parties-grid"
+        },
+
+        "Patient detail interested party grid":
+        {
+            "id": "scr-pat-interested-parties-grid"
+        },
+
+        "Patient detail interested party add":
+        {
+            "id": "scr-pat-interested-parties-grid-add"
+        },
+
+        "Patient detail interested party edit":
+        {
+            "id": "scr-pat-interested-parties-grid-edit"
+        },
+
+        "Patient detail interested party delete":
+        {
+            "id": "scr-pat-interested-parties-grid-delete"
+        },
+
+        "Patient detail interested party name 1":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][1]//span[1]"
+        },
+
+        "Patient detail interested party name 2":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][2]//span[1]"
+        },
+
+        "Patient detail interested party name 3":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][3]//span[1]"
+        },
+
+        "Patient detail interested party name 4":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][4]//span[1]"
+        },
+
+        "Patient detail interested party name 5":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][5]//span[1]"
+        },
+
+        "Patient detail interested party name 6":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][6]//span[1]"
+        },
+
+        "Patient detail interested party checkbox 1":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][1]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail interested party checkbox 2":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][2]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail interested party checkbox 3":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][3]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail interested party checkbox 4":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][4]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail interested party checkbox 5":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][5]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail interested party checkbox 6":
+        {
+            "xpath": "//div[@id='scr-pat-interested-parties-grid']//descendant::td[@role='gridcell'][6]//label[@class='mr-checkbox']"
+        },
+
+        "Patient detail family tab":
+        {
+            "id": "scr-pat-details-01-family-tab"
+        },
+
+        "Patient detail family add":
+        {
+            "id": "scr-pat-details-01-family-grid-add"
+        },
+
+        "Patient detail family delete":
+        {
+            "id": "scr-pat-details-01-family-grid-delete"
+        },
+
+        "Patient detail family name":
+        {
+            "id": "scr-pat-details-01-family-patient-autocomplete"
+        },
+
+        "Patient detail family relationship":
+        {
+            "id": "scr-pat-details-01-relationship"
+        },
+
+        "Patient detail family head of family":
+        {
+            "id": "scr-pat-details-01-head-of-family"
+        },
+
+        "Patient detail family cancel":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-family-grid-add']/following-sibling::*/descendant::button[text()='Cancel']"
+        },
+
+        "Patient detail family ok":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-family-grid-add']/following-sibling::*/descendant::button[text()='OK']"
+        },
+
+        "Patient detail family delete ok":
+        {
+            "id": "scr-pat-details-01-family-grid-delete-ok"
+        },
+
+        "Patient detail family name 1":
+        {
+            "xpath": "//div[@id='scr-pat-details-01-family-grid']//tr[1]//td"
+        },
+
+        "Patient detail family checkbox 1":
+        {
+            "xpath": "//div[@id='scr-pat-details-01-family-grid']//tr[1]//td//label"
+        },
+
+        "Patient detail family checkbox 2":
+        {
+            "xpath": "//div[@id='scr-pat-details-01-family-grid']//tr[2]//td//label"
+        },
+
+        "Patient social section":
+        {
+            "id": "scr-pat-details-00-navigation-social"
+        },
+
+        "Patient social accomodation":
+        {
+            "id": "scr-pat-details-02-accomodation"
+        },
+
+        "Patient social lives with":
+        {
+            "id": "scr-pat-details-02-lives-with"
+        },
+
+        "Patient social marital status":
+        {
+            "id": "scr-pat-details-02-marital-status"
+        },
+
+        "Patient social first name":
+        {
+            "id": "scr-pat-details-02-first-name"
+        },
+
+        "Patient social last name":
+        {
+            "id": "scr-pat-details-02-last-name"
+        },
+
+        "Patient social phone number":
+        {
+            "id": "scr-pat-details-02-phone-number"
+        },
+
+        "Patient social religion":
+        {
+            "id": "scr-pat-details-02-religion"
+        },
+
+        "Patient social blood donor":
+        {
+            "id": "scr-pat-details-02-blood-donor"
+        },
+
+        "Patient social blood type":
+        {
+            "id": "scr-pat-details-02-blood-type"
+        },
+
+        "Patient social organ donor":
+        {
+            "id": "scr-pat-details-02-organ-donor"
+        },
+
+        "Patient social sexuality":
+        {
+            "id": "scr-pat-details-02-sexuality"
+        },
+
+        "Patient social notes":
+        {
+            "id": "scr-pat-details-02-notes"
+        },
+
+        "Patient social occupation":
+        {
+            "id": "scr-pat-details-02-occupation"
+        },
+
+        "Patient social employer":
+        {
+            "id": "scr-pat-details-02-employer"
+        },
+
+        "Patient social adf":
+        {
+            "id": "scr-pat-details-02-adf"
+        },
+
+        "Patient social recreational drugs":
+        {
+            "id": "scr-pat-details-02-recreational-drugs"
+        },
+
+        "Patient social exercise regularly":
+        {
+            "id": "scr-pat-details-02-exercise-regularly"
+        },
+
+        "Patient social elite athlete":
+        {
+            "id": "scr-pat-details-02-elite-athlete"
+        },
+
+        "Patient social height":
+        {
+            "id": "scr-pat-details-02-height"
+        },
+
+        "Patient social weight":
+        {
+            "id": "scr-pat-details-02-weight"
+        },
+
+        "Patient tobacco section":
+        {
+            "id": "scr-pat-details-00-navigation-tobacco"
+        },
+
+        "Patient tobacco assesment date":
+        {
+            "id": "scr-pat-details-03-tobacco-assesment-date"
+        },
+
+        "Patient tobacco as assesment":
+        {
+            "id": "scr-pat-detail-03-tobacco-as-assesment"
+        },
+
+        "Patient tobacco form non smoker":
+        {
+            "id": "scr-pat-details-03-form-smoke-1"
+        },
+
+        "Patient tobacco form Ex-Smoker":
+        {
+            "id": "scr-pat-details-03-form-smoke-2"
+        },
+
+        "Patient tobacco form smoker":
+        {
+            "id": "scr-pat-details-03-form-smoke-3"
+        },
+
+        "Patient tobacco year started":
+        {
+            "id": "scr-pat-details-03-year-started"
+        },
+
+        "Patient tobacco number of cigarrete":
+        {
+            "id": "scr-pat-details-03-form-cigarettes-no"
+        },
+
+        "Patient tobacco interest to quit yes":
+        {
+            "id": "scr-pat-details-03-form-smoke-quit-1"
+        },
+
+        "Patient tobacco interest to quit no":
+        {
+            "id": "scr-pat-details-03-form-smoke-quit-2"
+        },
+
+        "Patient tobacco interest to quit undecided":
+        {
+            "id": "scr-pat-details-03-form-smoke-quit-3"
+        },
+
+        "Patient tobacco type of smoker social":
+        {
+            "id": "scr-pat-details-03-form-smoke-type-1"
+        },
+
+        "Patient tobacco type of smoker light":
+        {
+            "id": "scr-pat-details-03-form-smoke-type-2"
+        },
+
+        "Patient tobacco type of smoker heavy":
+        {
+            "id": "scr-pat-details-03-form-smoke-type-3"
+        },
+
+        "Patient tobacco type of smoker moderate":
+        {
+            "id": "scr-pat-details-03-form-smoke-type-4"
+        },
+
+        "Patient tobacco history year started":
+        {
+            "id": "scr-pat-details-03-form-history-year-started"
+        },
+
+        "Patient tobacco history year stopped":
+        {
+            "id": "scr-pat-details-03-form-history-year-stoped"
+        },
+
+        "Patient tobacco notes":
+        {
+            "id": "scr-pat-details-03-form-notes"
+        },
+
+        "Patient tobacco indicator tooltip icon":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-smoking-indicator']"
+        },
+
+        "Patient tobacco red indicator tooltip icon": 
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-smoking-indicator' and contains(concat(' ',normalize-space(@class),' '),' mr-patient-header-red')]"
+        },
+
+        "Patient tobacco green indicator tooltip icon": 
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-smoking-indicator' and contains(concat(' ',normalize-space(@class),' '),' mr-patient-header-green')]"
+        },
+
+        "Patient tobacco tooltip": 
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-smoking-content']"
+        },
+
+        "Patient tobacco tooltip smoking status text":
+        {
+            "xpath": "//div[@id='scr-pat-layout-01-patient-smoking-content']//*[contains(@data-bind,'patientModel.smoking.result')]"
+        },
+
+        "Patient tobacco tooltip smoking notes text":
+        {
+            "xpath": "//div[@id='scr-pat-layout-01-patient-smoking-content']//*[contains(@data-bind,'patientModel.smoking.smokingNote')]"
+            
+        },
+
+        "Patient alcohol section":
+        {
+            "id": "scr-pat-details-00-navigation-alcohol"
+        },
+
+        "Patient alcohol assesment date":
+        {
+            "id": "scr-pat-details-04-assesment-date"
+        },
+
+        "Patient alcohol as observation":
+        {
+            "id": "scr-pat-details-04-load-as-observation"
+        },
+
+        "Patient alcohol form non drinker":
+        {
+            "id": "scr-pat-details-04-form-drink-type-1"
+        },
+
+        "Patient alcohol form ex-drinker":
+        {
+            "id": "scr-pat-details-04-form-drink-type-2"
+        },
+
+        "Patient alcohol form drinker":
+        {
+            "id": "scr-pat-details-04-form-drink-type-3"
+        },
+
+        "Patient alcohol intake":
+        {
+            "id": "scr-pat-details-04-alcohol-intake"
+        },
+
+        "Patient alcohol frequency never":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-1"
+        },
+
+        "Patient alcohol frequency less than monthly":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-2"
+        },
+
+        "Patient alcohol frequency 1-2 days a month":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-3"
+        },
+
+        "Patient alcohol frequency 1-2 days a week":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-4"
+        },
+
+        "Patient alcohol frequency 3-4 days a week":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-5"
+        },
+
+        "Patient alcohol frequency 5-6 days a week":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-6"
+        },
+
+        "Patient alcohol frequency everyday":
+        {
+            "id": "scr-pat-details-04-form-drink-frequency-7"
+        },
+
+        "Patient alcohol per day 1-3":
+        {
+            "id": "scr-pat-details-04-form-drink-per-day-1"
+        },
+
+        "Patient alcohol per day 3-5":
+        {
+            "id": "scr-pat-details-04-form-drink-per-day-2"
+        },
+
+        "Patient alcohol per day 5-7":
+        {
+            "id": "scr-pat-details-04-form-drink-per-day-3"
+        },
+
+        "Patient alcohol per day 7+":
+        {
+            "id": "scr-pat-details-04-form-drink-per-day-4"
+        },
+
+        "Patient alcohol occassion less than monthly":
+        {
+            "id": "scr-pat-details-04-form-drink-occassion-1"
+        },
+
+        "Patient alcohol occassion monthly":
+        {
+            "id": "scr-pat-details-04-form-drink-occassion-2"
+        },
+
+        "Patient alcohol occasion weekly":
+        {
+            "id": "scr-pat-details-04-form-drink-occassion-3"
+        },
+
+        "Patient alcohol occasion daily or almost daily":
+        {
+            "id": "scr-pat-details-04-form-drink-occassion-4"
+        },
+
+        "Patient alcohol interest to quit yes":
+        {
+            "id": "scr-pat-details-04-form-drink-quit-1"
+        },
+
+        "Patient alcohol interest to quit no":
+        {
+            "id": "scr-pat-details-04-form-drink-quit-2"
+        },
+
+        "Patient alcohol interest to quit undecided":
+        {
+            "id": "scr-pat-details-04-form-drink-quit-3"
+        },
+
+        "Patient alcohol year started":
+        {
+            "id": "scr-pat-details-04-alcohol-history-year-start"
+        },
+
+        "Patient alcohol year stopped":
+        {
+            "id": "scr-pat-details-04-alcohol-history-year-stop"
+        },
+
+        "Patient alcohol note":
+        {
+            "id": "scr-pat-details-04-alcohol-note"
+        },
+
+        "Patient family history section":
+        {
+            "id": "scr-pat-details-00-navigation-family-history"
+        },
+
+        "Patient family history unknown":
+        {
+            "id": "scr-pat-details-05-family-status-unknown"
+        },
+
+        "Patient family history unsignificant":
+        {
+            "id": "scr-pat-details-05-family-status-unsignificant"
+        },
+
+        "Patient family history mother alive":
+        {
+            "id": "scr-pat-details-05-family-mother-alive"
+        },
+
+        "Patient family history mother deceased":
+        {
+            "id": "scr-pat-details-05-family-mother-deceased"
+        },
+
+        "Patient family history mother age at death":
+        {
+            "id": "scr-pat-details-05-form-mother-age-at-death"
+        },
+
+        "Patient family history mother cause of death":
+        {
+            "id": "scr-pat-05-form-mother-cod"
+        },
+
+        "Patient family history father alive":
+        {
+            "id": "scr-pat-details-05-family-father-alive"
+        },
+
+        "Patient family history father deceased":
+        {
+            "id": "scr-pat-details-05-family-father-deceased"
+        },
+
+        "Patient family history father age at death":
+        {
+            "id": "scr-pat-details-05-form-father-age-at-death"
+        },
+
+        "Patient family history father cause of death":
+        {
+            "id": "scr-pat-05-form-father-cod"
+        },
+
+        "Patient family history father cause of death autocomplete":
+        {
+            "id": "scr-pat-05-form-father-cod_listbox"
+        },
+
+        "Patient family history relationship":
+        {
+            "id": "scr-pat-details-05-form-relationship"
+        },
+
+        "Patient family history disease":
+        {
+            "id": "scr-pat-details-05-form-disease"
+        },
+
+        "Patient family history disease autocomplete":
+        {
+            "id": "scr-pat-details-05-form-disease_listbox"
+        },
+
+        "Patient family history outcome":
+        {
+            "id": "scr-pat-details-05-form-outcome"
+        },
+
+        "Patient family history comment":
+        {
+            "id": "scr-pat-details-05-form-comments"
+        },
+
+        "Patient family history add":
+        {
+            "id": "scr-pat-details-05-famhist-add-button"
+        },
+
+        "Patient family history notes":
+        {
+            "id": "scr-pat-details-05-form-notes"
+        },
+
+        "Patient setting section":
+        {
+            "id": "scr-pat-details-00-navigation-settings"
+        },
+
+        "Patient setting chart":
+        {
+            "id": "scr-pat-details-06-settings-chart"
+        },
+
+        "Patient setting account type":
+        {
+            "id": "scr-pat-details-06-settings-acc-type"
+        },
+
+        "Patient setting account payer":
+        {
+            "id": "scr-pat-details-06-settings-acc-payer"
+        },
+        
+        "Patient setting medicare use alias checkbox":{
+            "id": "scr-pat-details-06-settings-use-alias"
+        }, 
+        
+        "Patient setting medicare first name alias field":{
+            "id": "scr-pat-details-06-settings-first-name-alias"
+        }, 
+        
+        "Patient setting medicare surname alias field":{
+            "id": "scr-pat-details-06-settings-surname-alias"
+        },
+        
+        "Patient setting medicare address dropdown":
+        {
+            "id":"scr-pat-details-06-settings-medicare-address"
+        }, 
+
+        "Patient setting medicare card number":
+        {
+            "id": "scr-pat-details-06-settings-medicare-no"
+        },
+
+        "Patient setting medicare individual reference no":
+        {
+            "id": "scr-pat-details-06-settings-medicare-irn"
+        },
+
+        "Patient setting medicare OPV button":
+        {
+            "id": "scr-pat-details-06-opv-check"
+        },
+
+        "Patient setting medicare RACFId field":
+        {
+            "id": "scr-pat-details-06-settings-racfid"
+        },
+
+        "Patient setting medicare RACFId validation":
+        {
+            "xpath": "//span[@class='mr-validation-bottom k-invalid-msg'][text()='RACFId is not valid']"
+        },
+
+        "Valid Medicare Card Number":
+        {
+            "xpath": "//div[@id='global-information-message'][text()[contains(.,'Medicare card number is valid')]]"
+        },
+
+        "Valid Health fund Card":
+        {
+            "xpath": "//div[@id='global-information-message'][text()[contains(.,'Health fund card is valid.')]]"
+        },
+
+        "Patient setting medicare expiry":
+        {
+            "id": "scr-pat-details-06-settings-medicare-expiry"
+        },
+
+        "Patient setting funding provider field":
+        {
+            "id": "scr-pat-details-06-settings-fund-provider"
+        },
+
+        "Patient setting funding provider autocomplete":
+        {
+            "id": "scr-pat-details-06-settings-fund-provider_listbox"
+        },
+
+        "Patient setting funding id":
+        {
+            "id": "scr-pat-details-06-settings-fund-id"
+        },
+
+        "Patient setting funding expiry":
+        {
+            "id": "scr-pat-details-06-settings-fund-expiry"
+        },
+
+        "Patient setting appointment interval":
+        {
+            "id": "scr-pat-details-06-settings-appointment-interval"
+        },
+
+        "Patient setting appointment note":
+        {
+            "id": "scr-pat-details-06-settings-appointment-note"
+        },
+
+        "Patient setting pension card type":
+        {
+            "id": "scr-pat-details-06-settings-pension-card-type"
+        },
+
+        "Patient setting pension card number":
+        {
+            "id": "scr-pat-details-06-settings-pension-card-no"
+        },
+
+        "Patient setting pension card expiry":
+        {
+            "id": "scr-pat-details-06-settings-pension-card-expiry"
+        },
+
+        "Patient setting pension DVA no":
+        {
+            "id": "scr-pat-details-06-settings-pension-dva-no"
+        },
+
+        "Patient setting pension DVA condition":
+        {
+            "id": "scr-pat-details-06-settings-pension-dva-condition"
+        },
+
+        "Patient setting pension DVA card type dropdown":
+        {
+            "id": "scr-pat-details-06-settings-pension-dva-card-type"
+        },
+
+        "Patient setting pension safety number":
+        {
+            "id": "scr-pat-details-06-settings-pension-safetynetno"
+        },
+
+        "Patient setting ehealth id":
+        {
+            "id": "scr-pat-details-06-settings-ehealth-id"
+        },
+
+        "Patient setting ehealth status":
+        {
+            "id": "scr-pat-details-06-settings-ehealth-status"
+        },
+
+        "Patient setting ehealth verification":
+        {
+            "id": "scr-pat-details-06-settings-ehealth-verification"
+        },
+
+        "Patient setting ehealth eprescribing":
+        {
+            "xpath": "//input[@id='scr-pat-details-06-settings-ehealth-eprescriping']/parent::label[@class='mr-checkbox']"
+        },
+
+        "Patient setting ehealth research":
+        {
+            "id": "scr-pat-details-06-settings-ehealth-research"
+        },
+
+        "Patient setting claim add":
+        {
+            "id": "scr-pat-details-06-claim-grid-add"
+        },
+
+        "Patient ADF section":
+        {
+            "id": "scr-pat-details-00-navigation-adf"
+        },
+
+        "Patient ADF last MEC review date":
+        {
+            "id": "scr-pat-details-08-adf-last-mec-review-date"
+        },
+
+        "Patient ADF next MEC review date":
+        {
+            "id": "scr-pat-details-08-adf-next-mec-review-date"
+        },
+
+        "Patient ADF last PHE":
+        {
+            "id": "scr-pat-details-08-adf-last-phe"
+        },
+
+        "Patient ADF health readiness yes":
+        {
+            "id": "scr-pat-details-08-adf-health-readiness-yes"
+        },
+
+        "Patient ADF current immunisation no":
+        {
+            "id": "scr-pat-details-08-adf-current-immunisations-no"
+        },
+
+        "Patient ADF MEC dropdown":
+        {
+            "id": "scr-pat-details-08-adf-mec"
+        },
+
+        "Patient ADF MEC Sub classification dropdown":
+        {
+            "id": "scr-pat-details-08-adf-mec-subclassification"
+        },
+
+        "Patients Clinical Tab":
+        {
+            "id": "#scr-pat-layout-01-patient-clinical-tab"
+        },
+
+        "Patient Summary tab":
+        {
+            "id": "scr-pat-layout-01-patient-summary-tab"
+        },
+
+
+        "Patient Accounts tab":
+        {
+            "id": "scr-pat-layout-01-patient-account-tab"
+        },
+
+        "Patient activities tab":
+        {
+            "id": "scr-pat-layout-01-patient-activities-tab"
+        },
+
+        "Patient consent tab":
+        {
+            "id": "scr-pat-layout-01-patient-consent-tab"
+        },
+        
+        "Patient details tab":
+        {
+            "id": "scr-pat-layout-01-patient-details-tab"
+        },
+
+        "Patient sharing tab":
+        {
+            "id": "scr-pat-layout-01-patient-sharing-tab"
+        },
+
+        "Patient audit tab":
+        {
+            "id": "scr-pat-layout-01-patient-audit-tab"
+        },
+
+        "Patient dashboard tab":
+        {
+            "id": "scr-pat-layout-01-patient-summary-tab"
+        },
+
+        "Patient image":
+        {
+            "id": "scr-pat-layout-01-patient-image"
+        },
+
+        "Patient header photo":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-image'][contains(@data-bind,'patientPhotoPath')]"
+        },
+
+        "Patient header details":
+        {
+            "xpath": "//*[@data-bind='visible: displayable.PatientHeader.Details']"
+        },
+
+        "Patient header allergy":
+        {
+            "xpath": "//*[@data-bind='visible: isAllergiesVisible']"
+        },
+
+        "Patient header settings":
+        {
+            "xpath": "//*[@data-bind='visible: displayable.PatientHeader.Settings']"
+        },
+
+        "Patient image upload button":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-image']/following-sibling::div[@class='mr-info-overlay']/descendant::*[@class='mr-photo-info']"
+        },
+        
+		"Save Button container":
+		{
+			"xpath": "//*[@class='row mr-photo-control']"
+		},
+		
+        "Patient image save button":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-image']/following-sibling::div[@class='mr-info-overlay']/descendant::button[text()='Save']"
+        },
+
+        "Patient image replace button":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-image']/following-sibling::div[@class='mr-info-overlay']/descendant::button[text()='Replace']"
+        },
+
+        "Patient image cancel button":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-image']/following-sibling::div[@class='mr-info-overlay']/descendant::button[text()='Cancel']"
+        },
+
+        "Save button":
+        {
+            "id": "scr-sub-layout-01-save"
+        },
+
+        "Cancel button":
+        {
+            "id": "scr-sub-layout-01-cancel"
+        },
+
+        "Alert window":
+        {
+            "id": "global-information-window"
+        },
+
+        "Window OK":
+        {
+            "id": "global-information-window-ok-button"
+        },
+
+        "close patient":
+        {
+            "name": "scr-pat-layout-01-patient-header-bar-remove-button"
+        },
+
+        "Upload dialog field":
+        {
+            "cssSelector": "[CLASS:Edit; INSTANCE:1]"
+        },
+
+        "Upload dialog button":
+        {
+            "cssSelector": "[CLASS:Button; INSTANCE:1]"
+        },
+
+        "yes continue save button":
+        {
+            "id": "global-confirmation-window-yes-button"
+        },
+
+        "no continue save button":
+        {
+            "id": "global-confirmation-window-no-button"
+        },
+
+        "alert":
+        {
+            "id": "global-confirmation-window"
+        },
+
+        "Patient Details Alert Error Ok button":
+        {
+            "id": "global-error-window-ok-button"
+        },
+        
+        "Patient Detail Social Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: socialPage'] div h4"
+        },
+        
+        "Patient Detail Tobacco Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: tobaccoPage'] div h4"
+        },
+        
+        "Patient Detail Alcohol Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: alcoholPage'] div h4"
+        },
+        
+        "Patient Detail Family History Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: familyHistoryPage'] div h4"
+        },
+        
+        "Patient Detail Settings Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: settingsPage'] div h4"
+        },
+
+        "Patient Detail ADF Help":
+        {
+        	"cssSelector": "#scr-pat-details-00-layout-view .row:first-child div:last-child div:first-child [data-bind='visible: adfPage'] div h4"
+        },
+
+        "Invite button":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-mrapp-invited'and @class='mr-button-30 mr-button-blue']"
+        },
+
+        "Invite button pending":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-mrapp-invited'and @class='mr-button-30 mr-button-ember']"
+        },
+
+        "DVA New Condition button":
+        {
+            "id": "scr-pat-details-06-settings-pension-dva-new-condition"
+
+        },
+
+        "New Medical History Condition pop up":
+        {
+            "id": "MRPopupWindowscr-pat-clinical-03-condition-template"
+        },
+
+        "New Condition search box":
+        {
+            "id": "scr-pat-clinical-03-condition-search"
+        },
+
+        "New Condition search autocomplete":
+        {
+            "id": "scr-pat-clinical-03-condition-search_listbox"
+        },
+
+        "New Condition position dropdown":
+        {
+            "id": "scr-pat-clinical-03-condition-category"
+        },
+
+        "New Condition condition dropdown":
+        {
+            "id": "scr-pat-clinical-03-condition-condition"
+        },
+
+        "New Condition severity dropdown":
+        {
+            "id": "scr-pat-clinical-03-condition-severity"
+        },
+
+        "New Condition save button":
+        {
+            "id": "scr-pat-clinical-03-condition-save"
+        },
+
+        "Patient setting medicare OVV button":
+        {
+            "id": "scr-pat-details-06-ovv-check"
+        },
+
+        "OVV i Icon":
+        {
+            "xpath": "//*[@data-bind='attr: {data-tooltip-description: ovvLastValidationInfo}']"
+        },
+
+        "OVV Tooltip":
+        {
+            "xpath": "//*[@role='tooltip']"
+        },
+
+        "IHI No":
+        {
+            "id": "scr-pat-details-06-settings-ihi-no-id"
+        },
+
+        "Empty DVA Conditions":
+        {
+            "xpath": "//*[contains(@class, 'k-list-optionlabel') and text()='DVA Conditions']"
+        },
+
+        "Widget DVA Conditions":
+        {
+            "xpath": "//*[@aria-owns='scr-pat-details-06-settings-pension-dva-condition_listbox']"
+        },
+		"Patient setting medicare IHI validate button":
+        {
+            "id": "scr-pat-details-06-ihi-validate"
+        },
+
+        "IHI validation":
+        {
+            "xpath": "//span[contains(@class, 'mr-validation-bottom k-invalid-msg') and contains(text(), 'IHI No. is not valid')]"
+        },
+
+        "IHI i icon":
+        {
+            "xpath": "//div[contains(@class, 'mr-tooltip-info mr-common-icon family-tooltips hidden-print') and contains(@data-bind, 'attr: {data-tooltip-description: ihiLastValidationInfo}')]"
+        },
+
+        "Tooltip Active No IHI Number can be found":
+        {
+            "xpath": "//div[contains(@role, 'tooltip') and contains(@id, 'scr-pat-details-06-settings-view_tt_active')]/div[contains(@class, 'k-tooltip-content')]/div/strong[contains(text(), 'No IHI Number can be found')]"
+        },
+
+        "OPV i Icon":
+        {
+            "xpath": "//*[@data-bind='attr: {data-tooltip-description: opvLastValidationInfo}']"
+        },
+
+        "OPV Tooltip":
+        {
+            "xpath": "//*[@role='tooltip']"
+        },
+
+        "Patient setting medicare PVF button":
+        {
+            "id": "scr-pat-details-06-pvf-check"
+        },
+
+        "PVF i Icon":
+        {
+            "xpath": "//div[contains(@class, 'mr-tooltip-info mr-common-icon family-tooltips hidden-print') and contains(@data-bind, 'attr: {data-tooltip-description: pvfLastValidationInfo}')]"
+        },
+
+        "PVF Tooltip":
+        {
+            "xpath": "//*[@role='tooltip']"
+        },
+
+        "Patient setting fund UPI field":
+        {
+            "id": "scr-pat-details-06-settings-fund-upi"
+        },
+		
+		"Empty PatientID Label":
+        {
+            "xpath": "//label[@data-bind='text: settings.patientID'][text()='']"
+        },
+        "Patient Usual Provider dropdown":
+        {
+            "id":"scr-pat-layout-01-usual-provider"
+        },
+        "Patient Usual Practice dropdown":
+        {
+            "id":"scr-pat-layout-01-usual-practice"
+        },
+        
+        "Valid DVA Number":
+        {
+            "xpath": "//div[@id='global-information-message'][text()[contains(.,'DVA number is valid')]]"
+        },
+        
+        "Patient URN/s":
+        {
+            "xpath": "//*[@id='scr-pat-layout-01-patient-header-view']/descendant::*[contains(@data-bind, 'isUrn')]"
+        },
+		
+		"New Patient Shortcut":
+		{
+			"xpath": "//*[contains(@data-bind,'click:newPatient')]"
+		},
+		
+		"Patient detail family name autocomplete":
+        {
+            "id": "scr-pat-details-01-family-patient-autocomplete-list"
+        },
+		
+		"Patient Family History grid":
+        {
+            "id": "scr-pat-details-05-family-history-grid"
+        },
+		
+		"Patient Family History Edit button":
+        {
+            "id": "scr-pat-details-05-famhist-grid-edit"
+        },
+		
+		"Patient Family History Delete button":
+        {
+            "id": "scr-pat-details-05-famhist-grid-delete"
+        },
+		
+		"Patient Referral First Grid Value":
+        {
+            "xpath": "//*[@id='scr-pat-details-01-referrer-grid']/descendant::*[@role='grid'][2]"
+        },
+		
+		"Patient Detail Secondary Address City value":
+        {
+            "xpath": "//*[@aria-owns='scr-pat-details-01-secondary-city_listbox']"
+        },
+		
+		"Patient Detail Secondary Address State value":
+        {
+            "xpath": "//*[@aria-owns='scr-pat-details-01-secondary-state_listbox']"
+        },
+		
+		"Patient Detail Secondary Address Country value":
+        {
+            "xpath": "//*[@aria-owns='scr-pat-details-01-secondary-state_listbox']"
+        },
+		
+		"Patient Detail Emergency Name autocomplete":
+        {
+            "id": "scr-pat-details-01-emergency-name_listbox"
+        },
+		
+		"Patient Detail Emergency Next of Kin Name autocomplete":
+        {
+            "id": "scr-pat-details-01-nok-name_listbox"
+        },
+		
+		"Patient Detail Family grid":
+        {
+            "id": "scr-pat-details-01-family-grid"
+        },
+        
+        "Patient Header Inbox Flag":
+        {
+            "id": "scr-patient-header-inbox"
+        },
+
+        "CTG Co-payment relief":
+        {
+            "id": "scr-pat-details-01-payment-relief"
+        },
+
+        "ATSI place of birth":
+        {
+            "id": "scr-pat-details-01-atsi-place-of-birth"
+        },
+
+        "ATSI skin":
+        {
+            "id": "scr-pat-details-01-atsi-skin"
+        },
+
+        "ATSI Language at home":
+        {
+            "id": "scr-pat-details-01-atsi-language"
+        }
+		
+    }
+}

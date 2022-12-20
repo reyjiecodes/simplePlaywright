@@ -1,0 +1,394 @@
+{
+    "pageName": "Patient Clinical Tab",
+    "title": "",
+    "urlExtension": "/clinical",
+    "keyDomElementName": "Patient Clinical Tab Main view",
+    "domElements":
+    {
+        "Clinical tab":
+        {
+            "id": "#scr-pat-layout-01-patient-clinical"
+        },
+        "New Letter button":
+        {
+            "id": "scr-pat-clinical-01-letter-templates"
+        },
+
+        "Quick Prescription button":
+        {
+            "id": "scr-pat-clinical-01-rx"
+        },
+
+        "Request Pathology":
+        {
+            "id": "scr-pat-clinical-01-laboratory"
+        },
+
+        "Request Radiology":
+        {
+            "id": "scr-pat-clinical-01-radiology"
+        },
+
+        "Travel Medicine":
+        {
+            "id": "scr-pat-clinical-01-travel-medicine"
+        },
+
+        "MHR button":
+        {
+            "id": "scr-pat-clinical-01-pcehr"
+        },
+
+        "Patient Educational":
+        {
+            "id": "scr-pat-clinical-01-education"
+        },
+
+        "More Button":
+        {
+            "id": "scr-pat-layout-01-more"
+        },
+
+        "Layout Type":
+        {
+            "id": "scr-pat-clinical-01-layout-types"
+        },
+
+        "Layout Room":
+        {
+            "id": "scr-pat-clinical-01-layout-rooms"
+        },
+
+        "Layout Date":
+        {
+            "id": "scr-pat-clinical-01-layout-date"
+        },
+
+        "Layout Time":
+        {
+            "id": "scr-pat-clinical-01-layout-time"
+        },
+
+        "Timer Table":
+        {
+            "id": "scr-pat-clinical-01-timer-label"
+        },
+
+        "Timer Start":
+        {
+            "id": "scr-pat-clinical-01-btn-start"
+        },
+
+        "Timer Pause":
+        {
+            "id": "scr-pat-clinical-01-btn-start-icn-pause"
+        },
+
+        "Timer Finish":
+        {
+            "id": "scr-pat-clinical-01-btn-finish"
+        },
+
+        "Today Note section":
+        {
+            "id": "scr-pat-clinical-00-navigation-todays-note"
+        },
+
+        "Allergies section":
+        {
+            "id": "scr-pat-clinical-00-navigation-allergies"
+        },
+
+        "Medical History section":
+        {
+            "id": "scr-pat-clinical-00-navigation-medical-history"
+        },
+
+        "Past Consultation section":
+        {
+            "id": "scr-pat-clinical-00-navigation-past-consultations"
+        },
+
+        "Medications section":
+        {
+            "id": "scr-pat-clinical-00-navigation-medications"
+        },
+
+        "Immunisations section":
+        {
+            "id": "#scr-pat-clinical-00-navigation-immunisations"
+        },
+
+        "Clinical Drawing section":
+        {
+            "id": "scr-pat-clinical-00-navigation-clinical-drawings"
+        },
+
+        "Procedures section":
+        {
+            "id": "scr-pat-clinical-00-navigation-procedures"
+        },
+
+        "Hospitalizations section":
+        {
+            "id": "scr-pat-clinical-00-navigation-hospitalisations"
+        },
+
+        "Investigations section":
+        {
+            "id": "scr-pat-clinical-00-navigation-investigations"
+        },
+
+        "Correspondence section":
+        {
+            "id": "scr-pat-clinical-00-navigation-correspondence"
+        },
+
+        "Observations section":
+        {
+            "id": "scr-pat-clinical-00-navigation-observations"
+        },
+
+        "Obstetrics section":
+        {
+            "id": "scr-pat-clinical-00-navigation-obstetrics"
+        },
+
+        "Cervical Smears section":
+        {
+            "id": "scr-pat-clinical-00-navigation-cervical-smears"
+        },
+        
+        "Extended Care section":
+        {
+            "id": "scr-pat-clinical-00-navigation-extended-care"
+        },
+
+        "Billing popup yes button":
+        {
+            "id": "scr-pat-clinical-01-billing-form-window-yes-button"
+        },
+
+        "Billing popup":
+        {
+            "id": "scr-pat-clinical-01-billing-template-window-container"
+        },
+
+        "Alert Box No Button":
+        {
+            "id": "global-confirmation-window-no-button"
+        },
+
+        "Alert Box Yes Button":
+        {
+            "id": "global-confirmation-window-yes-button"
+        },
+
+        "Alert Box Ok Button":
+        {
+            "id": "global-error-window-ok-button"
+        },
+
+        "Alert Box Printing Print Them Now button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-01-prescription-validation-template-window-container']/descendant::*[contains(@data-bind, 'doPrintPrescriptionNow')]"
+        },
+
+        "Alert Box Printing Store Them For Printing Later button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-01-prescription-validation-template-window-container']/descendant::*[contains(@data-bind, 'doPrintingPrescriptionLater')]"
+        },
+
+        "Alert Box Printing Discard Them button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-01-prescription-validation-template-window-container']/descendant::*[contains(@data-bind, 'doUntickPrescription')]"
+        },
+
+        "Alert Box Printing":
+        {
+            "id": "scr-pat-clinical-01-prescription-validation-template-window-container"
+        },
+		
+		"MHR icon color grey":
+		{
+			"xpath": "//*[@id='scr-pat-clinical-01-pcehr']/descendant::*[contains(@class, 'mr-icon-grey')]"
+		},
+		
+		"MHR icon color green":
+		{
+			"xpath": "//*[@id='scr-pat-clinical-01-pcehr']/descendant::*[contains(@class, 'mr-icon-green')]"
+		},
+		
+		"MHR icon color orange":
+		{
+			"xpath": "//*[@id='scr-pat-clinical-01-pcehr']/descendant::*[contains(@class, 'mr-icon-orange')]"
+		},
+		
+		"MHR icon color blue":
+		{
+			"xpath": "//*[@id='scr-pat-clinical-01-pcehr']/descendant::*[contains(@class, 'mr-icon-blue')]"
+		},
+		
+		"Re Gain access pop up help icon":
+		{
+			"id": "scr-pat-clinical-17-gainaccess-help"
+		},
+		
+		"Re Gain access pop up cancel button":
+		{
+			"id": "scr-pat-clinical-17-gainaccess-cancel"
+		},
+		
+		"Patient details tab":
+	   	{
+	         	"id": "scr-pat-layout-01-patient-details-tab"
+		},
+		
+		"Finalize billing window":
+		{
+			"id": "scr-finalize-billing-window"
+		},
+        
+        "Consultation Type Surgery":
+		{
+			"xpath": "//span[@aria-owns='scr-pat-clinical-01-layout-types_listbox']//span[contains(text(),'Surgery')]"
+		},
+        
+        "Consultation Type Hospital":
+		{
+			"xpath": "//span[@aria-owns='scr-pat-clinical-01-layout-types_listbox']//span[contains(text(),'Hospital')]"
+        },
+
+        "Navigation Home Menu":
+        {
+            "id": "navigation-menu-home"
+
+        },
+        
+        "Add Medical History":
+        {
+            "id": "scr-pat-clinical-01-add-medical-history"
+        },
+
+        "Condition popup":
+        {
+            "id": "MRPopupWindowscr-pat-clinical-03-condition-template"
+        },
+        
+        "Add Immunisation":
+        {
+            "id": "scr-pat-clinical-01-add-immunisation"
+        },
+
+        "Immunisation popup":
+        {
+            "id": "MRPopupWindowscr-pat-clinical-06-new-immunisation"
+        },
+        
+        "Add Investigation Result":
+        {
+            "id": "scr-pat-clinical-01-add-investigation-result"
+        },
+
+        "Investigation Result popup": 
+        {
+            "id": "MRPopupWindowscr-pat-clinical-07-investigation-result-detail"
+        },
+        
+        "Add Inbound Letter":
+        {
+            "id": "scr-pat-clinical-01-add-inbound-letter"
+        },
+
+        "Inbound Letter popup": 
+        {
+            "id": "MRPopupWindowscr-pat-clinical-11-correspondence-import-in"
+        },
+        
+        "Add Hospitalisation":
+        {
+            "id": "scr-pat-clinical-01-add-hospitalisation"
+        },
+
+        "Hospitalisation popup": 
+        {
+            "id": "MRPopupWindowscr-pat-clinical-14-new-hospitalisation-window-template"
+        },
+        
+        "Add Pregnancy":
+        {
+            "id": "scr-pat-clinical-01-add-pregnancy"
+        },
+
+        "Pregnancy popup":
+        {
+            "id": "popup-clinical-obstetric-pregnancy"
+        },
+        
+        "Add Past Pregnancy":
+        {
+            "id": "scr-pat-clinical-01-add-past-pregnancy"
+        },
+        
+        "Add Pap Smear":
+        {
+            "id": "scr-pat-clinical-01-add-pap-smear"
+        },
+
+        "Activities + button": 
+        {
+            "id": "scr-pat-layout-01-activities-header-activities-add"
+        },
+
+        "Add Activity Task": 
+        {
+            "id": "scr-pat-layout-01-activities-header-activities-add-task"
+        },
+
+        "Add Activity Clinical": 
+        {
+            "id": "scr-pat-layout-01-activities-header-activities-add-clinical"
+        },
+        "Activity popup": 
+        {
+            "id": "scr-act-01-activity-editor-view"
+        },
+		
+		"Medical Certificate Letter button":
+        {
+            "id": "scr-pat-clinical-01-medical-certificate-letter"
+
+        },
+		
+		"Specialist Letter button":
+        {
+            "id": "scr-pat-clinical-01-specialist-letter"
+
+        },
+
+        "Patient dashboard tab":
+        {
+            "id": "scr-pat-layout-01-patient-summary-tab"
+        },
+		
+		"Patient account tab":
+        {
+            "id": "scr-pat-layout-01-patient-account-tab"
+        },
+		
+		"My Health Record section":
+        {
+            "id": "scr-pat-clinical-00-navigation-my-health-records"
+        },
+
+        "Patient Audit tab":
+        {
+          "id": "scr-pat-layout-01-patient-audit-tab"
+        },
+
+        "Consultation finalized alert ok button":
+        {
+            "id": "global-information-window-ok-button"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "simpleplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyjiecodes/simplePlaywright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reyjiecodes/simplePlaywright/issues"
+  },
+  "homepage": "https://github.com/reyjiecodes/simplePlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.0"
+  }
+}

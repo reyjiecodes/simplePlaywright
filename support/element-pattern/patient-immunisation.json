@@ -1,0 +1,273 @@
+{
+    "pageName": "Patient Immunisations",
+    "title": "",
+    "urlExtension": "/clinical/immunisations",
+    "domElements":
+    {
+        "Immunisations grid":
+        {
+            "id": "scr-pat-clinical-06-immunisations-grid"
+        },
+
+        "Immunisations Grid Total Item":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-immunisations-grid']/descendant::*[@data-role='pager']/descendant::span[contains(@class,'k-pager-info')]"
+        },
+
+        "New Immunisation button":
+        {
+            "id": "#scr-pat-clinical-06-new-immunisations"
+        },
+
+        "Show Child Schedule button":
+        {
+            "id": "scr-pat-clinical-06-immunisations-show-child-schedule"
+        },
+
+        "Child Schedule Header":
+        {
+            "id": "scr-pat-clinical-06-child-schedule-header"
+        },
+
+        "Hepatitis B checkbox":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-child-schedule-list-view']/descendant::*[@class='mr-child-schedule-checkbox'][1]"
+        },
+
+        "Hepatitis B green text":
+        {
+        	"xpath": "//*[@id='scr-pat-clinical-06-child-schedule-list-view']/descendant::span[contains(@class, 'mr-child-schedule-record-green-text') and contains(text(), 'Hepatitis B')]"
+        },
+
+        "Print button":
+        {
+            "id": "scr-pat-clinical-06-print-immunisation"
+        },
+
+        "Immunisation edit button":
+        {
+            "id": "scr-pat-clinical-06-edit-immunisation"
+        },
+
+        "Immunisation delete button":
+        {
+            "id": "scr-pat-clinical-06-delete-immunisations"
+        },
+
+        "Immunisation search":
+        {
+            "id": "scr-pat-clinical-06-immunisations-search"
+        },
+
+        "New Immunisation pop up":
+        {
+            "id": "MRPopupWindowscr-pat-clinical-06-new-immunisation"
+        },
+
+        "Vaccine list":
+        {
+            "id": "#scr-pat-clinical-06-new-immunisation-list-view"
+        },
+
+        "Immunisation Date":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-date"
+        },
+
+        "Immunisation Vaccinated Elsewhere check box":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-vaccinated-elsewhere"
+        },
+
+        "Immunisation provider":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-billing-provider"
+        },
+
+        "Immunisation given by":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-given-by"
+        },
+
+        "Immunisation consent by":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-consent-by"
+        },
+
+        "Immunisation vaccination declined check box":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-vaccinated-declined"
+        },
+
+        "Immunisation site":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-site"
+        },
+
+        "Immunisation sequence":
+        {
+            "id": "#scr-pat-clinical-06-new-immunisation-sequence"
+        },
+
+        "Immunisation route IM radio button":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-route-im"
+        },
+
+        "Immunisation route SC radio button":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-route-sc"
+        },
+
+        "Immunisation route Oral radio button":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-route-oral"
+        },
+
+        "Immunisation route Intradermal radio button":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-route-intradermal"
+        },
+
+        "Immunisation batch number":
+        {
+            "id": "#scr-pat-clinical-06-new-immunisation-batch-number"
+        },
+
+        "Immunisation store button":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-button-store"
+        },
+
+        "Immunisation serial number":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-serial-number"
+        },
+
+        "Immunisation recall":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-recall"
+        },
+
+        "Immunisation recall date":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-recall-date"
+        },
+
+        "Immunisation note":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-note"
+        },
+
+        "Immunisation add to todays note check box":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-add-todays-note"
+        },
+
+        "Immunisation confidential check box":
+        {
+            "id": "scr-pat-details-01-estimated"
+        },
+
+        "Immunisation cancel button":
+        {
+            "xpath": "//*[@id='MRPopupWindowscr-pat-clinical-06-new-immunisation']/descendant::button[normalize-space(text())='Cancel']"
+        },
+
+        "Immunisation save":
+        {
+            "xpath": "//*[@id='MRPopupWindowscr-pat-clinical-06-new-immunisation']/descendant::button[normalize-space(text())='Save']"
+        },
+
+        "Yes button dialog":
+        {
+            "id": "global-confirmation-window-yes-button"
+        },
+
+        "Total row grid":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-immunisations-grid']/descendant::*[@data-role='pager']/descendant::span[contains(@class,'k-pager-info')]"
+        },
+
+        "Vaccine is required":
+        {
+            "xpath": "//*[@id='MRPopupWindowscr-pat-clinical-06-new-immunisation']/descendant::*[text()='Vaccine is required']"
+        },
+
+        "Consent By is required":
+        {
+            "xpath": "//*[@id='MRPopupWindowscr-pat-clinical-06-new-immunisation']/descendant::*[text()='Consent By is required']"
+        },
+
+        "Filter button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-filter-menu']/preceding-sibling::button[@data-toggle]"
+        },
+
+        "Filter list":
+        {
+            "id": "scr-pat-clinical-06-filter-menu"
+        },
+		
+		"Patient Dashboard tab":
+        {
+            "id": "scr-pat-layout-01-patient-summary-tab"
+        },
+		
+		"Patient Immunisations Status button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-immunisations-view']/descendant::*[contains(@class,'mr-button')][8]"
+        },
+		
+		"Patient Immunisations Status list":
+        {
+            "id": "scr-pat-clinical-06-update-status"
+        },
+		
+		"Patient Immunisations Child Immunisation title":
+        {
+            "xpath": "//*[@data-bind='text: childScheduleTextHeader']"
+        },
+		
+		"Patient Immunisations Hide Child Schedule button":
+        {
+            "xpath": "//*[@id='scr-pat-clinical-06-immunisations-show-child-schedule' and text()='Hide Child Schedule']"
+        },
+
+        "Recall Assignee type dropdown": 
+        {
+            "id": "scr-pat-clinical-06-form-owner-type"
+        },
+
+        "Recall Assignee User":
+        {
+            "xpath": "//select[@id='scr-pat-clinical-06-new-immunisation-assignee-user']//ancestor::div[contains(@class, 'mr-multiselect-wrapper')]//descendant::*[contains(@class,'k-input')]"
+        },
+            
+        "Recall Assignee User autocomplete":
+        {
+            "id": "scr-pat-clinical-06-new-immunisation-assignee-user_listbox"
+        },
+
+        "Recall Assignee field":
+        {
+            "xpath": "//input[@aria-describedby='scr-pat-clinical-06-new-immunisation-assignee-user_taglist']"
+        },
+
+        "Immunisation recall value":
+		{
+            "xpath": "//*[@id='scr-pat-clinical-06-new-immunisation-recall']/ancestor::span[contains(@class, 'k-widget')]/descendant::span[@class='k-input']"
+        },
+
+        "Recall dropdown select":
+        {
+            "xpath": "//span[@aria-owns='scr-pat-clinical-06-new-immunisation-recall_listbox']"
+        },
+
+        "Recall Reason blank value":
+        {
+            "xpath": "//ul[@id='scr-pat-clinical-06-new-immunisation-recall_listbox']/preceding::div[@class='k-list-optionlabel'][contains(text(),'Recall Reason')]"
+        }
+
+    }
+}
